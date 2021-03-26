@@ -5,7 +5,7 @@ environment {
 name='Abdul'
 }
 stages {
-stage ('This is Build Stage1')
+stage ('This is Test Stage1')
 {
 steps {
   echo "${name}" 
