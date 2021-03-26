@@ -8,7 +8,7 @@ stages {
 stage ('This is Build Stage1')
 {
 steps {
-  echo ${name} 
+  echo "${name}" 
 }
 }
 }
